@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.container{
+    height: 100vh;
+    background-image: url(./asset/background.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    font-family: "Roboto";
+}
+.nav-bar{
+    display: flex;
+    padding: 20px;
+    height: 15vh;
+}
+.nav-bar::before{
+    content: "";
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    width: 1000px;
+    top: 120px;
+    right: 65px;
+}
+.nav-items{
+    margin: 10px;
+    position: relative;
+    left: 650px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+.svg-img{
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+}
+
+.body-section{
+    height: 80vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex ;
+}
+.left-section{
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+.heading{
+    position: relative;
+    font-size: 80px;
+    top: 25%;
+    left: 15%;
+}
+.right-section{
+    width: 50%;
+    height: 100%;
+}
+.learn-button{
+    position: relative;
+    background:transparent;
+    font-size: 50px;
+    top: 25%;
+    left: 15%;
+    border-radius: 50px;
+    padding: 20px;
+    border: 1px solid #fff;
+}
+.card{
+    margin: 20px;
+    padding: 10px;
+    height: 160px;
+    width: 280px;
+    background: rgba(230, 226, 226,0.1);
+}
+.card-image1{
+    position: relative;
+    right: 135px;
+    bottom: 30px;
+}
+.card-image2{
+    position: relative;
+    bottom: 25px;
+}
+.card-text{
+    position: relative;
+    bottom: 50px;
+}
+.white-dot1{
+    position: absolute;
+    right: 380px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top : 695px;
+    background: #fff;
+    border-radius: 50%;
+}
+.card2{
+ position: absolute;
+ top: 250px;
+ right: 80px;   
+}
+.card2::before{
+    content: "";
+    position: absolute;
+    border-right: 2px solid #fff;
+    height: 90px;
+    top:160px;
+    right: 134px;
+}
+.card1{
+    position: absolute;
+    top: 600px;
+    right: 500px;   
+}
+.card1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    width:  110px;
+    top:90px;
+    right: -110px;
+}
+.white-dot2{
+    position: absolute;
+    right: 220px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top : 500px;
+    background: #fff;
+    border-radius: 50%;
+}
